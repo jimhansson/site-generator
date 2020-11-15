@@ -5,7 +5,6 @@ before_script:
   - apt-get install pandoc -y
   - cd ~/quicklisp/local-projects/
   - cp -r ${CI_PROJECT_DIR} .
-  - ls
 
 build:
   script:
